@@ -2,16 +2,16 @@ import mongoose from "mongoose"
 
 const productSchema = new mongoose.schema(
   {
-    description:{
-      required:true,
-      type:String,
- 
-    },
-    name:{
-      required:true,
-      type:String,
-    },
-    
-  },{timestamps:true})
+    description: {
+      required: true,
+      type: String,
 
-export const Product = mongoose.model("Product",productSchema)
+    },
+    name: {
+      required: true,
+      type: String,
+    },
+
+  }, { timestamps: true })
+
+export const Product = mongoose.model("Product", productSchema)

@@ -6,7 +6,7 @@ const uerSchema = new mongoose.schema(
       unique: true,
       required: true,
       lowercase: true,
-    }, 
+    },
     email: {
       type: String,
       unique: true,
